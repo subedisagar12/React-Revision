@@ -1,0 +1,22 @@
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+
+Write a loop that prints each number in the numbers array.
+
+Create a loop that calculates the sum of all numbers in the numbers array.
+
+Create a loop that counts and prints the number of even numbers in the numbers array.
+
+Write a loop that doubles each number in the numbers array and stores the results in a new array.
+
+Create a loop that checks if a given number is present in the numbers array.
+
+Write a loop that calculates the product of all numbers in the numbers array.
+
+Create a loop that prints only the odd numbers from the numbers array.
+
+Write a loop that finds the index of a specific number in the numbers array.
+
+Create a loop that removes all even numbers from the numbers array and stores the remaining numbers in a new array.
+
+Write a loop that finds the largest number in the numbers array.
