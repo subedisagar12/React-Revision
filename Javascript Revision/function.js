@@ -132,13 +132,50 @@
 // Write a function that checks whether a given number is divisible by 9
 // Write a function that returns the maximum between two given numbers
 // Write a function that returns all the even numbers between the given number (inclusive)
+
+// const allEvenNumbers = (num) => {
+//   for (let i = 0; i <= num; i++) {
+//     if (i % 2 === 0) {
+//       console.log(i);
+//     }
+//   }
+// };
+
+// allEvenNumbers(20);
 // Eg: 10 -> 0,2,4,6,8,10
 // Eg: 5 -> 0,2,4
 // Write a function that returns the number of vowels in a given string
+
+const countVowel = (str) => {
+  let vowels = ["a", "e", "i", "o", "u"];
+  let count = 0;
+  for (let item of str) {
+    if (vowels.includes(item.toLowerCase())) {
+      count++;
+    }
+  }
+  return count;
+};
+
+console.log(countVowel("appleee"));
+
 // Write a function that returns the reverse of a given string
 // Write a function that checks if a given string is palindrome or not
 
 // Write a function that returns the maximum number of a given array
 // Write a function that returns the average of the given array
 // Write a function that returns the secondlast element of a given array
+
 // Given an array of strings, write a function that returns the smallest string of an array
+
+const smallestString = (strArray) => {
+  let smallString = strArray[0];
+  for (let item of strArray) {
+    if (item.length < smallString.length) {
+      smallString = item;
+    }
+  }
+  return smallString;
+};
+
+console.log(smallestString(["a", "apple", "mango"]));
