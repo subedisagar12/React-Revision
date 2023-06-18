@@ -20,3 +20,18 @@
 
 // let p = document.querySelectorAll("p");
 // console.log(p[2]);
+
+let heading = document.querySelector("#heading");
+
+let firstDiv = document.querySelector(".main-div");
+
+// firstDiv.innerHTML = "<p style='color:red'>Hi</p>";
+
+// firstDiv.textContent = "<p>Hello</p>";
+
+// console.log(firstDiv.innerHTML);
+
+// heading.style.backgroundColor = "red";
+// heading.style.color = "white";
+
+// console.log(heading);
