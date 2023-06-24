@@ -21,9 +21,9 @@
 // let p = document.querySelectorAll("p");
 // console.log(p[2]);
 
-let heading = document.querySelector("#heading");
+// let heading = document.querySelector("#heading");
 
-let firstDiv = document.querySelector(".main-div");
+// let firstDiv = document.querySelector(".main-div");
 
 // firstDiv.innerHTML = "<p style='color:red'>Hi</p>";
 
@@ -40,33 +40,64 @@ let firstDiv = document.querySelector(".main-div");
 // change the text Welcome Everyone to Hello Everybody
 // replace the paragraph of other id div with new h2 tag with message "New Heading"
 
-// const removeO = (str) => {
-//   let filterStr = "";
-//   for (let item of str) {
-//     if (item === "o" || item === "O") {
-//       continue;
-//       //   filterStr = filterStr + item;
-//     } else {
-//       filterStr = filterStr + item;
-//     }
-//   }
-//   return filterStr;
-// };
+// Attributes
 
-// console.log(removeO("Brown"));
+// let mainDiv = document.querySelector("#main");
 
-let extractCharacter = (str) => {
-  let checkedCharacter = [];
-  //   let filterStr = "";
-  for (let item of str) {
-    if (checkedCharacter.includes(item.toLowerCase())) {
-      continue;
-    } else {
-      checkedCharacter.push(item.toLowerCase());
-      //   filterStr = filterStr + item;
-    }
-  }
-  return checkedCharacter.join("");
-};
+// console.log(mainDiv);
 
-console.log(extractCharacter("thequickbrownfoxjumpsoverthelazydog"));
+// hasAttribute()
+// console.log(mainDiv.hasAttribute("hello"));
+
+// getAttribute()
+// console.log(mainDiv.getAttribute("name"));
+
+// setAttribute()
+
+// mainDiv.setAttribute("name", "myDiv");
+
+//removeAttribute()
+// mainDiv.removeAttribute("class");
+
+// console.log(mainDiv);
+
+// Take users age as a input
+
+// if age is less than 12 -> apply red class to the h1 heading
+
+// let age = prompt("what is your age?");
+// if (age < 12) {
+//   let change = document.getElementById("heading");
+//   change.setAttribute("class", "red");
+//   change.style.backgroundColor = "yellow";
+// }
+
+// let heading = document.getElementById("heading");
+// heading.classList.toggle("red");
+
+// heading.setAttribute("class", "font bg");
+
+// heading.removeAttribute("class");
+
+// let heading = document.createElement("h1");
+
+// heading.textContent = "Hello World";
+// heading.style.color = "blue ";
+
+// let container = document.getElementById("container");
+
+// container.after(heading);
+// container.prepend(heading);
+
+// insert new list item at start with content zero
+
+// insert new list item at end with content four
+
+let newadd = document.createElement("li");
+newadd.textContent = "zero";
+
+let newadd4 = document.createElement("li");
+newadd4.textContent = "Four";
+let list = document.getElementById("list");
+list.prepend(newadd);
+list.append(newadd4);
