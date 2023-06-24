@@ -35,3 +35,38 @@ let firstDiv = document.querySelector(".main-div");
 // heading.style.color = "white";
 
 // console.log(heading);
+
+// Change the bg color of id main div to yellow
+// change the text Welcome Everyone to Hello Everybody
+// replace the paragraph of other id div with new h2 tag with message "New Heading"
+
+// const removeO = (str) => {
+//   let filterStr = "";
+//   for (let item of str) {
+//     if (item === "o" || item === "O") {
+//       continue;
+//       //   filterStr = filterStr + item;
+//     } else {
+//       filterStr = filterStr + item;
+//     }
+//   }
+//   return filterStr;
+// };
+
+// console.log(removeO("Brown"));
+
+let extractCharacter = (str) => {
+  let checkedCharacter = [];
+  //   let filterStr = "";
+  for (let item of str) {
+    if (checkedCharacter.includes(item.toLowerCase())) {
+      continue;
+    } else {
+      checkedCharacter.push(item.toLowerCase());
+      //   filterStr = filterStr + item;
+    }
+  }
+  return checkedCharacter.join("");
+};
+
+console.log(extractCharacter("thequickbrownfoxjumpsoverthelazydog"));
