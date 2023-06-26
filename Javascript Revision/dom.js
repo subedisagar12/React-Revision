@@ -93,11 +93,93 @@
 
 // insert new list item at end with content four
 
-let newadd = document.createElement("li");
-newadd.textContent = "zero";
+// let newadd = document.createElement("li");
+// newadd.textContent = "zero";
 
-let newadd4 = document.createElement("li");
-newadd4.textContent = "Four";
-let list = document.getElementById("list");
-list.prepend(newadd);
-list.append(newadd4);
+// let newadd4 = document.createElement("li");
+// newadd4.textContent = "Four";
+// let list = document.getElementById("list");
+// list.prepend(newadd);
+// list.append(newadd4);
+
+// let name = document.getElementById("first_name");
+
+// console.log(name.value);
+
+// Events
+
+// function printMessage() {
+//   console.log("I am clicked");
+// }
+
+// let button = document.getElementById("btn-id");
+
+// button.addEventListener("click", function () {
+//   console.log("Clicked");
+// });
+
+// button.onclick = function () {
+//   console.log("Clicked");
+// };
+
+// button.addEventListener("click", () => {
+//   console.log("Hello");
+// });
+
+// button.onclick = () => {
+//   console.log("I am clicked");
+// };
+
+// Create a input field to take the users input and print the data in console when user presses a button
+
+// let button = document.getElementById("btn-id");
+// let age = document.getElementById("age");
+
+// // console.log(age.value);
+// button.addEventListener("click", () => {
+//   console.log("My age is " + age.value);
+// });
+
+// let newcolor = document.getElementById("container");
+// newcolor.addEventListener("mouseover", () => {
+//   newcolor.style.backgroundColor = "yellow";
+// });
+
+// newcolor.addEventListener("mouseout", () => {
+//   newcolor.style.backgroundColor = "red";
+// });
+
+// let container = document.getElementById("container");
+
+// container.addEventListener("mouseover", () => {
+//   container.style.backgroundColor = "yellow";
+// });
+
+// container.addEventListener("mouseout", () => {
+//   container.style.backgroundColor = "red";
+// });
+
+const students = [
+  "Jack",
+  "Johnson",
+  "Ramesh",
+  "Rita",
+  "Ruhani",
+  "Salim",
+  "Saiman",
+  "Srijana",
+  "Abhisekh",
+  "Ananya",
+  "Binita",
+  "Bibek",
+  "Bishal",
+  "Rahul",
+  "Sheha",
+  "Mark",
+  "Elon",
+  "Ethan",
+  "Lanan",
+  "Felix",
+  "Mitchell",
+  "Zayn",
+];
